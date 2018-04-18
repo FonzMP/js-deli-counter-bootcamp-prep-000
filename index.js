@@ -11,10 +11,10 @@ function insertPerson(katzDeliLine, name){
 
 function takeANumber(katzDeliLine, name) {
   let position = "";
-  let currentSearchName = name;
+  let currentSearchName = str(name);
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = katzDeliLine[i];
-    console.log(currentUser)
+    console.log(currentUser);
     if (currentUser === currentSearchName) {
       position = parseInt(i) + 1;
     } else {
