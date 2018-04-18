@@ -9,7 +9,7 @@ function insertPerson(katzDeliLine, name){
   return katzDeliLine;
 }
 
-function takeANumber(katzDeliLine, name) {
+function takeANumberExample(katzDeliLine, name) {
   let position = "";
   let currentSearchName = String(name);
   for (let i = 0; i < katzDeliLine.length; i++) {
