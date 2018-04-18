@@ -13,11 +13,11 @@ function takeANumber(katzDeliLine, name) {
   let position = "";
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = katzDeliLine[i];
-    if (currentUser === name;) {
+    if (currentUser === name) {
       position = parseInt(i) + 1;
     } else {
       position = "Sorry, we couldn't find that name."
     }
   }
-  return position;
+  return position
 }
