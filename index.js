@@ -39,4 +39,5 @@ function nowServing(){
   if (firstPerson === false) {
     return "There is nobody waiting to be served!"
   }
+  return firstPerson
 }
