@@ -15,7 +15,7 @@ function takeANumberExample(katzDeliLine, name) {
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = String(katzDeliLine[i]);
     if (currentUser === currentSearchName) {
-      return "You are currently number " + parseInt(i + 1) + " in line.";
+      return "Welcome, " + currentUser + ". You are number " + parseInt(i + 1) + " in line.";
     } else {
       position = "Sorry, we couldn't find that name."
     }
