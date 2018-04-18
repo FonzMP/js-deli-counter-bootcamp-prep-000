@@ -22,3 +22,7 @@ function takeANumberExample(katzDeliLine, name) {
   }
   return position
 }
+
+function takeANumber(katzDeliLine, name){
+  
+}
