@@ -44,8 +44,8 @@ function nowServing(katzDeliLine){
 
 function currentLine(e){
   for (let i = 0; i < e.length; i++) {
-    console.log(e[i]);
-    console.log(parseInt(i));
+    current Name = console.log(e[i]);
+    current Position = console.log(parseInt(i));
   }
   return
 }
