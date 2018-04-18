@@ -4,6 +4,7 @@ function takeANumber(katzDeliLine, name){
   let katDeliLine = katzDeli.push(name);
   for (let i = 0; i < katzDeliLine.length; i++){
     console.log(katzDeliLine[i]);
+    console.log(katzDeliLine.indexOf[i]);
   }
   return katzDeliLine;
 }
