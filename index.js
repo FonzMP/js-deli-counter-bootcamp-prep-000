@@ -40,5 +40,5 @@ function nowServing(katzDeliLine){
   if (firstPerson === undefined) {
     return "There is nobody waiting to be served!"
   }
-  return firstPerson
+  return "Currently serving " + firstPerson + ".";
 }
