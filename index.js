@@ -46,7 +46,7 @@ function currentLine(e){
   string = "";
   for (let i = 0; i < e.length; i++) {
     let currentName = e[i];
-    let current position = parseInt(i);
+    let currentPosition = parseInt(i);
     string += position + ". " + name;
   }
   return string
