@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
     currentPerson = katzDeliLine[i];
     console.log(currentPerson);
     currentPosition = parseInt(i) + 1;
-    console.log(parseInt(i) + 1);
+    console.log(currentPosition);
   }
   return katzDeliLine;
 }
