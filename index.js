@@ -47,4 +47,5 @@ function currentLine(e){
     console.log(e[i]);
     console.log(parseInt(i));
   }
+  return
 }
