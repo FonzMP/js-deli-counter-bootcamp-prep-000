@@ -14,6 +14,8 @@ function takeANumber(katzDeliLine, name) {
     currentPerson = katzDeliLine[i];
     if (name === currentPerson) {
       return parseInt(i) + 1;
+    } else {
+      return "Sorry, we couldn't find that name."
     }
   }
 }
