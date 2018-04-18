@@ -13,7 +13,7 @@ function takeANumber(katzDeliLine, name) {
   let position = "";
   let currentSearchName = str(name);
   for (let i = 0; i < katzDeliLine.length; i++) {
-    let currentUser = katzDeliLine[i];
+    let currentUser = str(katzDeliLine[i]);
     console.log(currentUser);
     if (currentUser === currentSearchName) {
       position = parseInt(i) + 1;
