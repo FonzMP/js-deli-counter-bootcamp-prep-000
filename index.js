@@ -35,5 +35,6 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(){
-  katzDeli.shift();
+  let firstPerson = katzDeli.shift();
+  if
 }
