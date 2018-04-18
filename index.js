@@ -36,6 +36,7 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(katzDelLine){
   let firstPerson = katzDeliLine.shift();
+  console.log(firstPerson);
   if (firstPerson === false) {
     return "There is nobody waiting to be served!"
   }
