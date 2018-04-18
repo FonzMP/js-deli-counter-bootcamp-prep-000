@@ -31,5 +31,5 @@ function takeANumber(katzDeliLine, name){
       return "You are currently number " + parseInt(i + 1) + " in line.";
     }
   }
-  return "Sorry, not working"
+  return "Sorry, not working";
 }
