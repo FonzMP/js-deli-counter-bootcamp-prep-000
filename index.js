@@ -8,3 +8,12 @@ function insertPerson(katzDeliLine, name){
   }
   return katzDeliLine;
 }
+
+function takeANumber(katzDeliLine, name) {
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    currentPerson = katzDeliLine[i];
+    if (name === currentPerson) {
+      return parseInt(i) + 1;
+    }
+  }
+}
