@@ -33,3 +33,7 @@ function takeANumber(katzDeliLine, name){
   }
   return "Sorry, not working";
 }
+
+function nowServing(){
+  katzDeli.shift();
+}
