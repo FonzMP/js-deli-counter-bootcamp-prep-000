@@ -53,7 +53,7 @@ function currentLine(e){
       if (i === e.length) {
         string += currentPosition + ". " + currentName + ", ";
       } else {
-        string += currentPosition + ". " + currentName;
+        string += currentPosition + ". " + currentName + ", ";
       }
     }
     return string
