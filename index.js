@@ -43,7 +43,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(e){
-  string = "";
+  let string = "";
   string += "The line is currently ";
   if (e.length > 0){
     for (let i = 0; i < e.length; i++) {
