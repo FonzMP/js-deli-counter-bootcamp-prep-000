@@ -12,11 +12,8 @@ function insertPerson(katzDeliLine, name){
 function takeANumber(katzDeliLine, name) {
   let position = "";
   let currentSearchName = String(name);
-  console.log(typeof(currentSearchName));
-  console.log(currentSearchName);
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = String(katzDeliLine[i]);
-    console.log(currentUser);
     if (currentUser === currentSearchName) {
       return "You are currently " + parseInt(i) + 1; + " in line.";
     } else {
