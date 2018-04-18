@@ -51,7 +51,7 @@ function currentLine(e){
       let currentName = e[i];
       let currentPosition = parseInt(i + 1);
       console.log(currentPosition);
-      if (i === currentPosition) {
+      if (e.length === currentPosition) {
         string += currentPosition + ". " + currentName;
       } else {
         string += currentPosition + ". " + currentName + ", ";
