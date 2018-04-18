@@ -13,12 +13,12 @@ function takeANumber(katzDeliLine, name) {
   let position = "";
   let currentSearchName = String(name);
   console.log(typeof(currentSearchName));
-  console.log(currentSearchName)
+  console.log(currentSearchName);
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = String(katzDeliLine[i]);
     console.log(currentUser);
     if (currentUser === currentSearchName) {
-      position = parseInt(i) + 1;
+      return parseInt(i) + 1;
     } else {
       position = "Sorry, we couldn't find that name."
     }
