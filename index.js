@@ -12,6 +12,7 @@ function insertPerson(katzDeliLine, name){
 function takeANumber(katzDeliLine, name) {
   let position = "";
   let currentSearchName = String(name);
+  console.log(type(currentSearchName));
   for (let i = 0; i < katzDeliLine.length; i++) {
     let currentUser = String(katzDeliLine[i]);
     console.log(currentUser);
