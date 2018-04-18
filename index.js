@@ -44,7 +44,7 @@ function nowServing(katzDeliLine){
 
 function currentLine(e){
   let string = "";
-  string += "The line is currently ";
+  string += "The line is currently: ";
   if (e.length > 0){
     for (let i = 0; i < e.length; i++) {
       let currentName = e[i];
