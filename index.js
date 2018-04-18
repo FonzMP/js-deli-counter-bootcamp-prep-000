@@ -50,6 +50,7 @@ function currentLine(e){
     for (let i = 0; i < e.length; i++) {
       let currentName = e[i];
       let currentPosition = parseInt(i + 1);
+      console.log(currentPositon)
       if (i === currentPosition) {
         string += currentPosition + ". " + currentName;
       } else {
