@@ -48,5 +48,5 @@ function currentLine(e){
     current position = parseInt(i);
     string = position + ". " + name;
   }
-  return
+  return string
 }
