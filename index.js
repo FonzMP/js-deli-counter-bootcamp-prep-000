@@ -48,10 +48,10 @@ function currentLine(e){
   string += "The line is currently: ";
   if (e.length > 0){
     for (let i = 0; i < e.length; i++) {
-      console.log(i)
+      console.log(i);
       let currentName = e[i];
       let currentPosition = parseInt(i + 1);
-      if (i === e.length) {
+      if (i === currentPosition) {
         string += currentPosition + ". " + currentName;
       } else {
         string += currentPosition + ". " + currentName + ", ";
