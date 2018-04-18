@@ -18,6 +18,6 @@ function takeANumber(katzDeliLine, name) {
     } else {
       return "Sorry, we couldn't find that name."
     }
-    console.log(currentUser);
+    return position
   }
 }
