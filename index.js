@@ -24,5 +24,11 @@ function takeANumberExample(katzDeliLine, name) {
 }
 
 function takeANumber(katzDeliLine, name){
-  
+  katzDeliLine.push(name);
+  for(let i = 0; i < katzDeliLine.length; i++) {
+    let currentUser = String(katzDeliLine[i]);
+    if (currentUser === name) {
+      return "You are currently number " + parseInt(i + 1) + " in line.";
+    }
+  }
 }
