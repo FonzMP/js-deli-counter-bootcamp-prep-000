@@ -12,7 +12,7 @@ function insertPerson(katzDeliLine, name){
 function takeANumber(katzDeliLine, name) {
   for (let i = 0; i < katzDeliLine.length; i++) {
     currentPerson = katzDeliLine[i];
-    if (name === currentPerson) {
+    if (currentUser === name) {
       return parseInt(i) + 1;
     } else {
       return "Sorry, we couldn't find that name."
